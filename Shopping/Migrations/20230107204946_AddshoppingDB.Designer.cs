@@ -11,8 +11,8 @@ using Shopping.Data;
 namespace Shopping.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230103200004_AddTablasCountryCategory")]
-    partial class AddTablasCountryCategory
+    [Migration("20230107204946_AddshoppingDB")]
+    partial class AddshoppingDB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

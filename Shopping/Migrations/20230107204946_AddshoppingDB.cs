@@ -5,7 +5,7 @@
 namespace Shopping.Migrations
 {
     /// <inheritdoc />
-    public partial class AddTablasCountryCategory : Migration
+    public partial class AddshoppingDB : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

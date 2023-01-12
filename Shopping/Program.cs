@@ -11,6 +11,8 @@ builder.Services.AddDbContext<DataContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation(); // linea para realizar las correcciones en caliente, mientras se ejecuta el proyecto
+
 
 var app = builder.Build();
 
